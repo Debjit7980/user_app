@@ -242,7 +242,7 @@ function Sports() {
                         }
 
                     </Swiper>
-                    <div className='absolute h-[49px] md:w-[1052px] left-3 z-10 w-[95%] md:-left-[12%]  top-[50%]  flex   justify-between '>
+                    <div className='absolute h-[49px] md:w-[1052px] left-1 z-10 w-[97%] md:-left-[12%]  top-[50%]  flex   justify-between '>
                         <button onClick={() => swiperRef.current?.slidePrev()} className="md:text-3xl  text-xl pt-2 pb-2 text-blue-600 border border-blue-600"><MdKeyboardArrowLeft /></button>
                         <button onClick={() => swiperRef.current?.slideNext()} className="md:text-3xl text-xl pt-2 pb-2 text-blue-600 border border-blue-600"><MdKeyboardArrowRight /></button>
                     </div>
