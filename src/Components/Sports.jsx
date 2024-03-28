@@ -122,7 +122,7 @@ function Sports() {
                 <span className={`${textColor} text-2xl border-[#738FFF] border-b-2`}>Sports</span>
                 <div className='flex md:flex-row flex-col md:gap-5 gap-12 w-100  mt-20 md:mt-10'>
 
-                    <div className={`md:w-[237px] w-[60%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
+                    <div className={`md:w-[237px] w-[80%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
                         <div>
                             <img src={one} alt="one" className='md:h-[360px] h-[400px]' />
                         </div>
@@ -134,7 +134,7 @@ function Sports() {
                             </div>
                         </div>
                     </div>
-                    <div className={`md:w-[237px] w-[60%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
+                    <div className={`md:w-[237px] w-[80%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
                         <div>
                             <img src={two} alt="one" className='md:h-[360px] h-[400px] w-full' />
                         </div>
@@ -148,7 +148,7 @@ function Sports() {
 
                     </div>
 
-                    <div className={`md:w-[237px] w-[60%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
+                    <div className={`md:w-[237px] w-[80%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
                         <div>
                             <img src={three} alt="one" className='md:h-[360px] h-[400px]' />
                         </div>
@@ -161,7 +161,7 @@ function Sports() {
                         </div>
 
                     </div>
-                    <div className={`md:w-[237px] w-[60%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
+                    <div className={`md:w-[237px] w-[80%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
                         <div>
                             <img src={four} alt="one" className='md:h-[360px] h-[400px]' />
                         </div>
@@ -242,9 +242,9 @@ function Sports() {
                         }
 
                     </Swiper>
-                    <div className='absolute h-[49px] md:w-[1052px] left-6 w-[90%] md:-left-[12%]  top-[50%]  flex   justify-between '>
-                        <button onClick={() => swiperRef.current?.slidePrev()} className="text-3xl pt-2 pb-2 text-blue-600 border border-blue-600"><MdKeyboardArrowLeft /></button>
-                        <button onClick={() => swiperRef.current?.slideNext()} className="text-3xl pt-2 pb-2 text-blue-600 border border-blue-600"><MdKeyboardArrowRight /></button>
+                    <div className='absolute h-[49px] md:w-[1052px] left-4 z-10 w-[94%] md:-left-[12%]  top-[50%]  flex   justify-between '>
+                        <button onClick={() => swiperRef.current?.slidePrev()} className="md:text-3xl  text-xl pt-2 pb-2 text-blue-600 border border-blue-600"><MdKeyboardArrowLeft /></button>
+                        <button onClick={() => swiperRef.current?.slideNext()} className="md:text-3xl text-xl pt-2 pb-2 text-blue-600 border border-blue-600"><MdKeyboardArrowRight /></button>
                     </div>
                 </div>
             </div>
