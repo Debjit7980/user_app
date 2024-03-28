@@ -231,7 +231,7 @@ function Sports() {
                                             <div className=' h-0 border-t-2 border-gray-500 border-dashed md:w-[84%] w-[80%]  absolute top-0 md:left-5 left-6 '></div>
                                             <span className='text-[18px] tracking-wide'>{name}</span>
                                             <span className='text-[14px]'>{date} | {day} | {time}</span>
-                                            <span className='text-[14px] text-[#DFDFDF]'>{desc}</span>
+                                            <span className={`text-[14px] ${isDarkMode ? 'text-[#DFDFDF]' : 'text-[#525965]'} `}>{desc}</span>
                                             <span className='bg-black p-2 text-center text-white w-[90%] mx-auto'>{ticket}</span>
                                         </div>
                                     </div>
