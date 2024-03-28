@@ -118,86 +118,85 @@ function Sports() {
                 }
                 `}
             </style>
-            <div className='md:w-[1249px] w-[90%] mx-auto mt-12 font-inter'>
+            <div className='md:w-[1249px] w-[90%] mx-auto md:mt-12 mt-8  font-inter'>
                 <span className={`${textColor} text-2xl border-[#738FFF] border-b-2`}>Sports</span>
-                <div className='flex md:flex-row flex-col md:gap-5 gap-12 w-100  mt-10'>
+                <div className='flex md:flex-row flex-col md:gap-5 gap-12 w-100  mt-20 md:mt-10'>
 
-                    <div className={`md:w-[237px] w-[70%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
+                    <div className={`md:w-[237px] w-[60%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
                         <div>
                             <img src={one} alt="one" className='md:h-[360px] h-[400px]' />
                         </div>
                         <div className='pt-2'>
-                            <span className={`${textColor} md:text-[16px] text-[20px]`}>Sacramento River Cats</span>
+                            <span className={`${textColor} md:text-[16px] text-[22px]`}>Sacramento River Cats</span>
                             <div className={`p-2 ${isDarkMode ? 'bg-gray-900' : 'bg-gray-100'}  mt-2 flex  ${textColor}`}>
-                                <div className='flex flex-col'><span className={`md:text-[12px] text-[15px] text-[#525965]`}>Total Events</span><span className='md:text-[14px] text-[17px]'>48 Events</span></div>
-                                <div className='flex flex-col ml-auto'><span className='md:text-[12px] text-[15px] text-[#525965]'>Sport</span><span className='md:text-[14px] text-[17px]'>Baseball</span></div>
+                                <div className='flex flex-col'><span className={`md:text-[12px] text-[16px] text-[#525965]`}>Total Events</span><span className='md:text-[14px] text-[16px]'>48 Events</span></div>
+                                <div className='flex flex-col ml-auto'><span className='md:text-[12px] text-[16px] text-[#525965]'>Sport</span><span className='md:text-[14px] text-[16px]'>Baseball</span></div>
                             </div>
                         </div>
                     </div>
-                    <div className={`md:w-[237px] w-[70%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
+                    <div className={`md:w-[237px] w-[60%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
                         <div>
                             <img src={two} alt="one" className='md:h-[360px] h-[400px] w-full' />
                         </div>
                         <div className='pt-2'>
                             <span className={`${textColor} md:text-[16px] text-[20px] text`}>Las Vegas Aviators</span>
                             <div className={`p-2 ${isDarkMode ? 'bg-gray-900' : 'bg-gray-100'}  mt-2 flex gap-4  ${textColor}`}>
-                                <div className='flex flex-col'><span className='md:text-[12px] text-[15px] text-[#525965]'>Total Events</span><span className='md:text-[14px] text-[17px]'>28 Events</span></div>
-                                <div className='flex flex-col ml-auto'><span className='md:text-[12px] text-[15px] text-[#525965]'>Sport</span><span className='md:text-[14px] text-[17px]'>Baseball</span></div>
+                                <div className='flex flex-col'><span className='md:text-[12px] text-[16px] text-[#525965]'>Total Events</span><span className='md:text-[14px] text-[16px]'>28 Events</span></div>
+                                <div className='flex flex-col ml-auto'><span className='md:text-[12px] text-[16px] text-[#525965]'>Sport</span><span className='md:text-[14px] text-[16px]'>Baseball</span></div>
                             </div>
                         </div>
 
                     </div>
 
-                    <div className={`md:w-[237px] w-[70%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
+                    <div className={`md:w-[237px] w-[60%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
                         <div>
                             <img src={three} alt="one" className='md:h-[360px] h-[400px]' />
                         </div>
                         <div className='pt-2'>
                             <span className={`${textColor} md:text-[16px] text-[20px]`}>New Jersey Devils</span>
                             <div className={`p-2 ${isDarkMode ? 'bg-gray-900' : 'bg-gray-100'} gap-4  mt-2 flex  ${textColor}`}>
-                                <div className='flex flex-col'><span className='md:text-[12px] text-[15px] text-[#525965]'>Total Events</span><span className='md:text-[14px] text-[17px]'>15 Events</span></div>
-                                <div className='flex flex-col ml-auto'><span className='md:text-[12px] text-[15px] text-[#525965]'>Sport</span><span className='md:text-[14px] text-[17px]'>Ice Hockey</span></div>
+                                <div className='flex flex-col'><span className='md:text-[12px] text-[16px] text-[#525965]'>Total Events</span><span className='md:text-[14px] text-[16px]'>15 Events</span></div>
+                                <div className='flex flex-col ml-auto'><span className='md:text-[12px] text-[16px] text-[#525965]'>Sport</span><span className='md:text-[14px] text-[16px]'>Ice Hockey</span></div>
                             </div>
                         </div>
 
                     </div>
-                    <div className={`md:w-[237px] w-[70%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
+                    <div className={`md:w-[237px] w-[60%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
                         <div>
                             <img src={four} alt="one" className='md:h-[360px] h-[400px]' />
                         </div>
                         <div className='pt-2'>
                             <span className={`${textColor} md:text-[16px] text-[20px]`}>Las Vegas Aviators</span>
                             <div className={`p-2 ${isDarkMode ? 'bg-gray-900' : 'bg-gray-100'}  gap-4 mt-2 flex  ${textColor}`}>
-                                <div className='flex flex-col'><span className='md:text-[12px] text-[15px] text-[#525965]'>Total Events</span><span className='md:text-[14px] text-[17px]'>28 Events</span></div>
-                                <div className='flex flex-col ml-auto'><span className='md:text-[12px] text-[15px] text-[#525965]'>Sport</span><span className='md:text-[14px] text-[17px]'>Baseball</span></div>
+                                <div className='flex flex-col'><span className='md:text-[12px] text-[16px] text-[#525965]'>Total Events</span><span className='md:text-[14px] text-[16px]'>28 Events</span></div>
+                                <div className='flex flex-col ml-auto'><span className='md:text-[12px] text-[16px] text-[#525965]'>Sport</span><span className='md:text-[14px] text-[16px]'>Baseball</span></div>
                             </div>
                         </div>
 
                     </div>
-                    <div className={`md:w-[237px] w-[70%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
+                    <div className={`md:w-[237px] w-[60%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
                         <div className='relative'>
                             <img src={add} alt="one" className='md:h-[180px] h-[240px] w-full' />
                             <span className='absolute top-0 right-0 p-2 text-sm bg-black text-white'>Ad</span>
                         </div>
                         <div className='p-2  text-white'>
-                            <span className={`${textColor} text-lg font-bold`}>Advertisement title</span>
-                            <p className={`${textColor} mt-4 md:text-[14px] text-[18px]`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nobis ipsum perspiciatis consequatur sed? Optio nam quo maxime illum quasi et esse asperiores porro cupiditate consequuntur quis tempore, nostrum molestias.</p>
+                            <span className={`${textColor} md:text-lg text-[22px] tracking-wide`}>Advertisement title</span>
+                            <p className={`${textColor} mt-4 md:text-[14px] text-[19px] tracking-wide`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nobis ipsum perspiciatis consequatur sed? Optio nam quo maxime illum quasi et esse asperiores porro cupiditate consequuntur quis tempore, nostrum molestias.</p>
                         </div>
                     </div>
                 </div>
                 <div className='mt-16 w-[124.8px] mx-auto'>
-                    <button className='pt-[10px] pb-[10px] pl-[30px] pr-[30px] text-[14px] text-[14px] bg-[#2C9CF0] text-white rounded-md w-full'>See More</button>
+                    <button className='pt-[10px] pb-[10px] pl-[30px] pr-[30px] md:text-[14px] text-[15px] bg-[#2C9CF0] text-white rounded-md w-full'>See More</button>
                 </div>
             </div>
-            <div className="md:w-[1240px] w-[92%] mx-auto mt-14 pb-8 mb-12 relative" style={{ background: isDarkMode ? 'linear-gradient(to top, #221A2C, #18282A)' : 'rgba(247, 247, 248, 1)' }}>
+            <div className="md:w-[1240px] w-[92%]  mx-auto mt-14 pb-8 mb-12 relative" style={{ background: isDarkMode ? 'linear-gradient(to top, #221A2C, #18282A)' : 'rgba(247, 247, 248, 1)' }}>
 
                 <div className={`${textColor} pt-12 text-center pb-20 w-[80%] mx-auto`}>
                     <span className='text-5xl font-bold'>Collection Spotlight</span>
-                    <p className='text-[18px] mt-10'>Discover extraordinary moments with our Spotlight Collection metatickets—exclusive access to premium events for an unforgettable experience. Grab yours today!</p>
+                    <p className='text-[18px] md:mt-10 mt-14'>Discover extraordinary moments with our Spotlight Collection metatickets—exclusive access to premium events for an unforgettable experience. Grab yours today!</p>
                 </div>
-                <div className='md:w-[850px] w-[86%]  mx-auto relative'>
+                <div className='md:w-[850px] w-[100%]  mx-auto relative'>
                     <Swiper
-                        
                         loop={true}
                         breakpoints={{
                             640: {
@@ -210,7 +209,7 @@ function Sports() {
                             },
                             1024: {
                                 slidesPerView: 3,
-                                spaceBetween: 1,
+                                spaceBetween: 10,
                             },
                         }}
                         modules={[Navigation, Pagination, Autoplay]}
@@ -229,21 +228,21 @@ function Sports() {
                                             <img src={image} alt="userImage" className="md:h-[401px] md:w-[226.1px] h-[340px] w-[94%] mx-auto " />
                                         </div>
                                         <div className={`box w-[100%] flex flex-col gap-4 p-4  text-center relative ${isDarkMode ? 'bg-gray-700' : 'bg-white'}`} >
-                                            <div className=' h-0 border-t-2 border-gray-500 border-dashed w-[84%]  absolute top-0 left-5 '></div>
+                                            <div className=' h-0 border-t-2 border-gray-500 border-dashed md:w-[84%] w-[80%]  absolute top-0 md:left-5 left-6 '></div>
                                             <span className='text-[18px] tracking-wide'>{name}</span>
                                             <span className='text-[14px]'>{date} | {day} | {time}</span>
                                             <span className='text-[14px] text-[#DFDFDF]'>{desc}</span>
                                             <span className='bg-black p-2 text-center text-white w-[90%] mx-auto'>{ticket}</span>
                                         </div>
                                     </div>
-                                    <div className='absolute w-[86%] left-5  h-[420px]  top-[0%]' style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 20px 22px darkgray'}}></div>
-                                    <div className='absolute w-[86%] left-5  h-[180px]  top-[68%]' style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 20px 22px darkgray'}}></div>
+                                    <div className='absolute md:w-[86%] w-[50%] h-[360px] md:h-[420px]  md:left-5 left-[25%] top-[0%]' style={{ boxShadow: isDarkMode ? '0px 22px 20px black' : '0px 20px 22px darkgray'}}></div>
+                                    <div className='absolute md:w-[86%] w-[50%] h-[180px] md:h-[180px]  md:left-5 left-[25%] top-[60%] md:top-[68%]' style={{ boxShadow: isDarkMode ? '0px 18px 20px black' : '0px 20px 22px darkgray'}}></div>
                                 </SwiperSlide>
                             })
                         }
 
                     </Swiper>
-                    <div className='absolute h-[49px] w-[1052px] -left-[12%]  top-[50%]  flex   justify-between '>
+                    <div className='absolute h-[49px] md:w-[1052px] left-6 w-[90%] md:-left-[12%]  top-[50%]  flex   justify-between '>
                         <button onClick={() => swiperRef.current?.slidePrev()} className="text-3xl pt-2 pb-2 text-blue-600 border border-blue-600"><MdKeyboardArrowLeft /></button>
                         <button onClick={() => swiperRef.current?.slideNext()} className="text-3xl pt-2 pb-2 text-blue-600 border border-blue-600"><MdKeyboardArrowRight /></button>
                     </div>
