@@ -174,7 +174,7 @@ function Sports() {
                         </div>
 
                     </div>
-                    <div className={`md:w-[237px] w-[60%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
+                    <div className={`md:w-[237px] w-[80%] ${isDarkMode ? 'bg-gray-700' : 'bg-white'} p-3 md:p-2 md:m-0 mx-auto`} style={{ boxShadow: isDarkMode ? '0px 0px 20px black' : '0px 0px 20px gray' }}>
                         <div className='relative'>
                             <img src={add} alt="one" className='md:h-[180px] h-[240px] w-full' />
                             <span className='absolute top-0 right-0 p-2 text-sm bg-black text-white'>Ad</span>
@@ -242,7 +242,7 @@ function Sports() {
                         }
 
                     </Swiper>
-                    <div className='absolute h-[49px] md:w-[1052px] left-4 z-10 w-[94%] md:-left-[12%]  top-[50%]  flex   justify-between '>
+                    <div className='absolute h-[49px] md:w-[1052px] left-3 z-10 w-[95%] md:-left-[12%]  top-[50%]  flex   justify-between '>
                         <button onClick={() => swiperRef.current?.slidePrev()} className="md:text-3xl  text-xl pt-2 pb-2 text-blue-600 border border-blue-600"><MdKeyboardArrowLeft /></button>
                         <button onClick={() => swiperRef.current?.slideNext()} className="md:text-3xl text-xl pt-2 pb-2 text-blue-600 border border-blue-600"><MdKeyboardArrowRight /></button>
                     </div>
