@@ -1,0 +1,14 @@
+.box {
+    --mask: radial-gradient(14px at 14px 0,#0000 98%,#000) -14px;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+    box-sizing: border-box;
+    
+   
+}
+.box-2{
+    --mask: radial-gradient(14px at 14px 100%,#0000 98%,#000) -14px;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+    
+}
