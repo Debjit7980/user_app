@@ -9,6 +9,7 @@ function Signup({ onClick }) {
     const [pass,setPass]=useState('');
     const [agreed, setAgreed] = useState(false);
     const [showMessage, setShowMessage] = useState(false);
+    const [showPassMessage, setShowPassMessage] = useState(false);
 
     const handleNameChange = (event) => {
         setName(event.target.value);
@@ -27,17 +28,26 @@ function Signup({ onClick }) {
         setEmail(event.target.value)
     }
 
-    const handlePassChange=(event)=>{
-        setPass(event.target.value)
-    }
-
+    const handlePassChange = (event) => {
+        setPass(event.target.value);
+    };
+    
+    const handlePassBlur = () => {
+        if (pass.length < 6) {
+            setShowPassMessage(true);
+        }
+        else{
+            setShowPassMessage(false);
+        }
+    };
+    
     const handleCheckboxChange = () => {
         setAgreed(!agreed);
     };
 
     return (
         <div className='flex w-full h-screen md:fixed relative md:m-0'>
-            <div className='md:w-[33%] w-[100%] object-fill  md:h-screen'>
+            <div className='md:w-[33%] w-[100%] object-fill  h-screen'>
                 <img src={image1} alt="image1" className='w-full h-full' />
             </div>
             <div className='md:w-[45%] w-[80%] absolute md:relative left-[10%] md:left-0 text-white md:text-black md:bg-white bg-black md:opacity-100 opacity-[80%] md:p-0 p-6 top-[15%] md:top-6 md:mx-auto'>
@@ -50,7 +60,7 @@ function Signup({ onClick }) {
                             <span className='mr-auto font-bold'>Name</span>
                             <input
                                 type='text'
-                                className='outline-0  rounded-lg p-2 bg-gray-200'
+                                className='outline-0  rounded-lg p-2 bg-gray-200 text-black'
                                 value={name}
                                 onChange={handleNameChange}
                             />
@@ -62,6 +72,7 @@ function Signup({ onClick }) {
                                 className={`outline-0 rounded-lg p-2 ${showMessage? 'bg-pink-100 text-red-500':'bg-gray-200'}`}
                                 value={username}
                                 onChange={handleUsernameChange}
+                               
                             />
                         </span>
                     </div>
@@ -74,7 +85,9 @@ function Signup({ onClick }) {
                     <input type="password" placeholder="6+ characters" className='outline-0  placeholder-gray-500 p-2 bg-gray-200 rounded-lg'
                         value={pass}
                         onChange={handlePassChange}
+                        onBlur={handlePassBlur}
                     />
+                    {showPassMessage && <span className='text-red-500 text-md font-bold mt-4'><li>Password minimum length must be 6 characters long</li></span>}
                     <div className='mt-6 flex'>
                         <input type="checkbox" className='mb-auto h-6 w-6'
                             checked={agreed}
