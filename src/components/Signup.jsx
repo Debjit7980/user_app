@@ -47,10 +47,10 @@ function Signup({ onClick }) {
 
     return (
         <div className='flex w-full h-screen md:fixed relative md:m-0'>
-            <div className='md:w-[33%] w-[100%] object-fill  h-screen'>
-                <img src={image1} alt="image1" className='w-full h-full' />
+            <div className='md:w-[33%] w-[100%] h-[805px]'>
+                <img src={image1} alt="image1" className='w-full h-full object-cover' />
             </div>
-            <div className='md:w-[45%] w-[80%] absolute md:relative left-[10%] md:left-0 text-white md:text-black md:bg-white bg-black md:opacity-100 opacity-[80%] md:p-0 p-6 top-[10%] md:top-6 md:mx-auto'>
+            <div className='md:w-[45%] w-[90%]  absolute md:relative left-[5%] md:left-0 text-white md:text-black md:bg-white bg-black md:opacity-100 opacity-[80%] md:p-0 p-6 top-[2%] md:top-6 md:mx-auto'>
                 <span className='md:absolute md:top-0 md:-right-[20%] text-md'>Already a member? <span className='text-blue-600'>Sign In</span></span>
                 <div className='flex flex-col  ml-0  md:mx-auto w-full md:w-[70%]'>
                     <span className='text-2xl pt-12 font-bold mr-auto '>Sign up to Dribbble</span>
