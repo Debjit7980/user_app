@@ -50,7 +50,7 @@ function Signup({ onClick }) {
             <div className='md:w-[33%] w-[100%] object-fill  h-screen'>
                 <img src={image1} alt="image1" className='w-full h-full' />
             </div>
-            <div className='md:w-[45%] w-[80%] absolute md:relative left-[10%] md:left-0 text-white md:text-black md:bg-white bg-black md:opacity-100 opacity-[80%] md:p-0 p-6 top-[15%] md:top-6 md:mx-auto'>
+            <div className='md:w-[45%] w-[80%] absolute md:relative left-[10%] md:left-0 text-white md:text-black md:bg-white bg-black md:opacity-100 opacity-[80%] md:p-0 p-6 top-[10%] md:top-6 md:mx-auto'>
                 <span className='md:absolute md:top-0 md:-right-[20%] text-md'>Already a member? <span className='text-blue-600'>Sign In</span></span>
                 <div className='flex flex-col  ml-0  md:mx-auto w-full md:w-[70%]'>
                     <span className='text-2xl pt-12 font-bold mr-auto '>Sign up to Dribbble</span>
@@ -69,7 +69,7 @@ function Signup({ onClick }) {
                             <span className='mr-auto font-bold flex gap-2'>{showMessage && <IoWarning className='text-xl text-red-500' />}Username</span>
                             <input
                                 type='text'
-                                className={`outline-0 rounded-lg p-2 ${showMessage? 'bg-pink-100 text-red-500':'bg-gray-200'}`}
+                                className={`outline-0 text-black rounded-lg p-2 ${showMessage? 'bg-pink-100 text-red-500':'bg-gray-200'}`}
                                 value={username}
                                 onChange={handleUsernameChange}
                                
@@ -77,19 +77,19 @@ function Signup({ onClick }) {
                         </span>
                     </div>
                     <span className='text-md font-bold mr-auto mt-8'>Email</span>
-                    <input type="email" className='outline-0 p-2 bg-gray-200 rounded-lg' 
+                    <input type="email" className='outline-0 text-black p-2 bg-gray-200 rounded-lg' 
                         value={email}
                         onChange={handleEmailChange}
                     />
                     <span className='text-md font-bold mr-auto mt-8'>Password</span>
-                    <input type="password" placeholder="6+ characters" className='outline-0  placeholder-gray-500 p-2 bg-gray-200 rounded-lg'
+                    <input type="password" placeholder="6+ characters" className='outline-0 text-black placeholder-gray-500 p-2 bg-gray-200 rounded-lg'
                         value={pass}
                         onChange={handlePassChange}
                         onBlur={handlePassBlur}
                     />
                     {showPassMessage && <span className='text-red-500 text-md font-bold mt-4'><li>Password minimum length must be 6 characters long</li></span>}
                     <div className='mt-6 flex'>
-                        <input type="checkbox" className='mb-auto h-6 w-6'
+                        <input type="checkbox" className='mb-auto text-black h-6 w-6'
                             checked={agreed}
                             onChange={handleCheckboxChange}
                         />
