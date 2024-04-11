@@ -78,10 +78,11 @@ function Hello({ onClick, onReturn}) {
           <>
             <span className='font-bold mt-10 text-center'>Anything else? You can select multiple</span>
             <button className='mt-5 bg-pink-500 text-white pt-2 pb-2 w-[30%] rounded-lg' onClick={onClick}>Finish</button>
-            <span className='font-bold text-sm text-center text-gray-400 mt-2 cursor-pointer' onClick={onReturn}>or Press <span className='text-md'>RETURN</span></span>
+            <span className='font-bold text-sm text-center text-gray-400 mt-2 cursor-pointer mb-2' onClick={onReturn}>or Press <span className='text-md'>RETURN</span></span>
           </>
         ) : (
-          <button className='bg-pink-300 text-white pt-2 pb-2 mt-10 w-[30%] rounded-lg cursor-pointer' onClick={onClick}>Finish</button>
+          <button className='bg-pink-500 text-white pt-2 pb-2 mt-10 w-[30%] rounded-lg cursor-pointer mb-2' onClick={onClick} disabled >Finish</button>
+          
         )}
       </div>
     </div>

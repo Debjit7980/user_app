@@ -40,11 +40,12 @@ function CreateProfile({ onClick, onReturn}) {
         {imagePreview? (
           <>
             <button className='bg-pink-500 text-white pt-2 pb-2 mt-10 w-[30%] rounded-lg' onClick={onClick}>Next</button>
-            <span className='font-bold text-sm md:ml-12 ml-0 text-gray-400 mt-2 cursor-pointer' onClick={onReturn}>or Press <span className='text-md'>RETURN</span></span>
+            <span className='font-bold text-sm md:ml-12 ml-0 text-gray-400 mt-2 cursor-pointer mb-2' onClick={onReturn}>or Press <span className='text-md'>RETURN</span></span>
           </>
         
         ): (
-          <button className='bg-pink-300 text-white pt-2 pb-2 mt-10 w-[30%] rounded-lg' onClick={onClick} >Next</button>
+          <button className='bg-pink-300 text-white pt-2 pb-2 mt-10 w-[30%] rounded-lg mb-2' onClick={onClick} disabled>Next</button>
+          
         ) }
       </div>
     </div>
