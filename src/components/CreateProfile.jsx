@@ -44,7 +44,7 @@ function CreateProfile({ onClick, onReturn}) {
           </>
         
         ): (
-          <button className='bg-pink-300 text-white pt-2 pb-2 mt-10 w-[30%] rounded-lg cursor-not-allowed' onClick={onClick} disabled>Next</button>
+          <button className='bg-pink-300 text-white pt-2 pb-2 mt-10 w-[30%] rounded-lg' onClick={onClick} >Next</button>
         ) }
       </div>
     </div>

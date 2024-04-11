@@ -81,7 +81,7 @@ function Hello({ onClick, onReturn}) {
             <span className='font-bold text-sm text-center text-gray-400 mt-2 cursor-pointer' onClick={onReturn}>or Press <span className='text-md'>RETURN</span></span>
           </>
         ) : (
-          <button className='bg-pink-300 text-white pt-2 pb-2 mt-10 w-[30%] rounded-lg cursor-not-allowed' onClick={onClick} disabled>Finish</button>
+          <button className='bg-pink-300 text-white pt-2 pb-2 mt-10 w-[30%] rounded-lg cursor-pointer' onClick={onClick}>Finish</button>
         )}
       </div>
     </div>
